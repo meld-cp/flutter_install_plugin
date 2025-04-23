@@ -27,6 +27,7 @@ apply plugin: 'kotlin-android'
 
 
 android {
+    namespace "com.youxiachai.installplugin"
     compileSdkVersion 31
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8  // Set Java version to 1.8
